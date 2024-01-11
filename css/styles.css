@@ -1,0 +1,272 @@
+.header {
+    display: block;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+/* header{
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+} */
+
+.toolbar {
+    padding-top: 2%;
+    float: right;
+    font-size: 20px;
+    color: #171546;
+    cursor: pointer;
+}
+
+.phrases {
+    margin-left: 2%;
+    clear: both;
+    text-align: center;
+
+}
+
+.phrases h2 {
+    font-size: 45px;
+}
+
+.phrases h3 {
+    font-size: 30px;
+}
+
+#s_who {
+    margin-top: 5%;
+    margin-left: -8px;
+    margin-right: -6px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: #171546;
+}
+
+#s_who p {
+    color: white;
+    margin-left: 2%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#s_reviews{
+    margin-top: 5%;
+}
+
+#s_reviews tr td{
+    font-size: 20px;
+}
+
+body {
+    background-color: white;
+    color: #171546;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#wrapper_header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1%;
+    clear: both;
+}
+
+.header_title {
+    color: white;
+    margin-bottom: 3%;
+    background-color: #235B4E;
+    text-align: center;
+    font-size: 35px;
+}
+
+nav {
+    text-align: right;
+}
+
+a:link {
+    text-decoration: none;
+    color: #171546;
+}
+
+a:visited {
+    color: #171546;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #171546;
+}
+
+a:active {
+    color: #171546;
+    text-decoration: none;
+}
+
+#wrapper_content {
+    text-align: center;
+}
+
+p {
+    color: #171546;
+}
+
+hr {
+    color: #6C6A93;
+    width: 90%;
+}
+
+ul {
+    margin-bottom: 77%;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1%;
+    color: #171546;
+    margin-bottom: 4%;
+}
+
+#wrapper_core_services {
+    margin-left: -8px;
+    margin-right: -6px;
+    padding: 0.1%;
+    background-color: #F8F7FC;
+    padding-bottom: 2.5%;
+}
+
+#wrapper_core_services h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+#wrapper_core_services p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+#first {
+    margin-top: -24px;
+    margin-left: 8%;
+    width: 30%;
+    float: left;
+    font-size: 25px;
+}
+
+#first ol li{
+    list-style-type: none;
+    text-align: center;
+}
+#first ol li p{
+    background-color: #F7FCFC;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#second {
+    text-align: right;
+}
+
+#second img{
+    width: 50%;
+    padding-right: 10%;
+}
+#s_works{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -10px;
+}
+
+#s_works h2{
+    font-size: 40px;
+}
+#s_works table tr td p{
+    font-size: 25px;
+}
+
+#s_works table tr td p img{
+    border-radius: 50%;
+    border-style: none;
+    border: 1px black solid;
+}
+
+#s_team {
+    background-color: #F8F7FC;
+    text-align: center;
+    padding-top: 0.5%;
+    margin-left: -7px;
+    margin-right: -6px;
+    margin-bottom: -20px;
+}
+
+#s_team table{
+    padding-bottom: 3%;
+}
+#s_team h2{
+    font-size: 40px; 
+}
+
+#s_team table tr th{
+    font-size: 30px; 
+}
+
+#s_team table tr td{
+    font-size: 25px; 
+    
+}
+
+#s_contact {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#s_contact h2 {
+    margin-top: -15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#s_contact div {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5px;
+}
+
+#s_contact div div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 160px;
+}
+
+#s_contact div img {
+    padding-right: 5px;
+}
+
+footer{
+    font-size: 20px;
+    margin-bottom: -20px;
+    margin-left: -1px;
+    margin-right: -7px;
+    padding-top: 3px;
+    background-color: #F8F7FC;
+}
+
+footer a p{
+    text-align: center;
+}
+footer div p{
+    text-align: left;
+    padding-left: 2%;
+    padding-bottom: 20px;
+}
+
+

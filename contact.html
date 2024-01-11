@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Retro - Web Design &amp; Development Agency </title>
+    <meta charset="UTF-8">
+    <link href="css/stylesContactPage.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="imgs/logo.png" type="image/x-icon"/>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div style="float: left;">
+                <h1> <a href="index.html"> <img src="imgs/logo.png" alt="Retro" width="160" height="90"> </a>
+                    <!-- COMPANY'S LOGO --> </h1>
+            </div>
+            <div class="toolbar">
+                <nav>
+                    <a href="#officeHours"> Hours of Attention </a> |
+                    <a href="#contactInformation"> Contact Form </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="officeHours">
+        <h2> Hours of Attention </h2>
+        <div>
+            <table>
+                <tr>
+                    <th> Monday</th>
+                    <td> 6:00am - 10:00pm </td>
+                </tr>
+                <tr>
+                    <th> Tuesday</th>
+                    <td> 6:00am - 10:00pm </td>
+                </tr>
+                <th> Wednesday</th>
+                <td> 6:00am - 10:00pm </td>
+                </tr>
+                <tr>
+                    <th> Thursday</th>
+                    <td> 6:00am - 10:00pm </td>
+                </tr>
+                <tr>
+                    <th> Friday</th>
+                    <td> 6:00am - 10:00pm </td>
+                </tr>
+                <tr>
+                    <th> Saturday</th>
+                    <td> 6:30am - 10:00pm </td>
+                </tr>
+                <tr>
+                    <th style="border: none;"> Sunday</th>
+                    <td style="border: none;"> 6:30am - 10:00pm </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contactInformation">
+        <h2> Retro answers all your questions </h2>
+        <h3> Contact Information</h3>
+        <div class="inquiry">
+
+            <form action="mailto:contact@retro.ca?subject=Contact Message"
+            method="POST" 
+            name="contactForm" 
+            id="formContact"
+            enctype="text/plain">
+            <div>
+                <label class="required" for="name">NAME</label>
+                <input type="text" id="name" name="name" placeholder="Name" tabindex="1" required>
+            </div>
+            <div>
+                <label class="required" for="surName">SURNAME</label>
+                <input type="text" id="surName" name="surName" placeholder="Surname"tabindex="2" required>
+            </div>
+            <!-- <div>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="Email" tabindex="3">
+            </div> -->
+
+
+            <h3 style="margin-left: 0%;"> Make your inquiry</h3>
+            <div>
+                <label class="required" id="message" for="ContactComment">MESSAGE</label>
+                <textarea id=”ContactComment” name="message" style="height: 200px;" placeholder="Enter your message here." 
+                tabindex="3" required></textarea>
+            </div>
+
+            <div id="send">
+                <input id="b_send" type="submit" value="Send" tabindex="4">
+                <input type="reset" value="Clear Form" tabindex="5">
+            </div>
+
+        </div>
+        </form>
+    </section>
+
+    <section id="s_contact">
+        <div>
+            <div>
+                <img src="imgs/contact/address.png" width="25" height="25"> <a
+                    href="https://www.google.com/maps/place/1234+Mountain+Rd,+Moncton,+NB+E1C+8H9/@46.1080171,-64.829326,17z/data=!3m1!4b1!4m6!3m5!1s0x4ca0b8b1a0a19099:0x9c55a33afb01f97c!8m2!3d46.1080171!4d-64.829326!16s%2Fg%2F11bw405607?entry=ttu"
+                    target="_blank" rel="noopener"> 1234 Mountain Rd, Moncton, NB E1C 8H9 </a>
+            </div>
+            <div>
+                <img src="imgs/contact/phone.png" width="25" height="25"> <a href="tel:+5068976543"> (506) 897-6543 </a>
+            </div>
+            <div>
+                <img src="imgs/contact/email.png" width="25" height="25"> <a href="mailto:contact@retro.ca">
+                    contact@retro.ca </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <a href="contact.html">
+            <p> Go Top</p>
+        </a>
+        <div>
+            <p> &copy; Retro Web Design Group Inc. 2023. All rights reserved. </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
